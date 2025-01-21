@@ -1,0 +1,3 @@
+instance name = redfin-endyoutube-ym-EC2 = ETL_project_instance
+OS = Ubuntu
+instance type = recommended is t2 large but I am using micro because of credits
