@@ -10,7 +10,15 @@ This project demonstrates an end-to-end data pipeline that processes real estate
 4. **Data Storage (Transformed)**: Save the transformed data back into a different S3 bucket.
 5. **Data Loading (Snowflake)**: Use Snowpipe to ingest the transformed data into Snowflake.
 6. **Data Visualization**: Connect Power BI to Snowflake to create insightful visualizations.
+---
 
+## Images
+
+### Workflow Diagram
+![Workflow Diagram](https://github.com/Usama00004/ETL-Pipeline/blob/main/images/Image_1.png)
+
+### Air Flow Dag
+![Sample Dashboard](https://github.com/Usama00004/ETL-Pipeline/blob/main/images/Image_3.png)
 ---
 
 ## Key Components
@@ -50,23 +58,6 @@ This project demonstrates an end-to-end data pipeline that processes real estate
 
 ---
 
-## Project Structure
-
-```plaintext
-real-estate-pipeline/
-├── data/                  # Sample datasets for testing
-├── scripts/               # Python scripts for ETL process
-│   ├── extract.py         # Extract data from Redfin
-│   ├── transform.py       # Transform raw data
-│   ├── load_to_s3.py      # Upload data to S3
-│   └── load_to_snowflake.py # Ingest data into Snowflake
-├── dashboards/            # Power BI dashboards
-├── requirements.txt       # Python dependencies
-├── README.md              # Project documentation
-└── config/                # Configuration files (e.g., AWS, Snowflake)
-```
-
----
 
 ## Setup Instructions
 
@@ -125,18 +116,7 @@ pip install -r requirements.txt
 - Expand to support additional data sources beyond Redfin.
 - Optimize Power BI dashboards for advanced analytics.
 
----
 
-## Images
-
-### Workflow Diagram
-![Workflow Diagram](path/to/workflow-diagram.png)
-
-### Sample Dashboard
-![Sample Dashboard](path/to/sample-dashboard.png)
-
-### Data Transformation Example
-![Data Transformation Example](path/to/data-transformation-example.png)
 
 ---
 
