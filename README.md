@@ -19,6 +19,9 @@ This project demonstrates an end-to-end data pipeline that processes real estate
 
 ### Air Flow Dag
 ![Sample Dashboard](https://github.com/Usama00004/ETL-Pipeline/blob/main/images/Image_3.png)
+
+### Executing Snow Pipe
+![Sample Dashboard](https://github.com/Usama00004/ETL-Pipeline/blob/main/images/Image_4.png)
 ---
 
 ## Key Components
